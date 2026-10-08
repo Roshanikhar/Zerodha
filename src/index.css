@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-item{
+  margin-left:40px;
+}
+
+.social-icons {
+  display: flex;          /* Arrange in a row */
+  gap: 15px;              /* Space between icons */
+  justify-content: center; /* Center horizontally */
+}
+
+.social-icons a {
+  color: #333;            /* Icon color */
+  font-size: 24px;        /* Icon size */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0077b5;         /* Change color on hover */
+}
+
+a {
+  text-decoration: none;   /* removes underline */
+  color: #333;             /* set link color */
+  font-weight: 500;        /* optional styling */
+}
+
+a:hover {
+  color: #007bff;          /* hover color */
+}
